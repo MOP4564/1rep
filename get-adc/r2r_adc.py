@@ -56,7 +56,6 @@ if __name__ == '__main__':
         adc = R2R_ADC(3.21)
 
         while True:
-            #print(adc.get_sc_voltage())
             print(adc.get_sar_voltage())
 
     finally:
